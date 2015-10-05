@@ -2,7 +2,8 @@
 #include <fstream>
 using namespace std;
 
-int main() {
+int main()
+{
    char cadena[128];
    ofstream fs("nombre.txt"); 
    fs << "Hola, mundo" << endl;
