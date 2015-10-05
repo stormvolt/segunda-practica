@@ -4,7 +4,6 @@ using namespace std;
 
 int search_(string a)
 {
-	string b=" ";
 	for(int i=0; i<a.length(); i++)
 	{
 		if(a[i]==' ')
